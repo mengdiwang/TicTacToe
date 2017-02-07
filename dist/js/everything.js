@@ -32147,7 +32147,7 @@ var game;
     }
     game.isProposal2 = isProposal2;
     function updateUI(params) {
-        log.info("Game got updateUI:", params);
+        log.info("Game got updateUI X:", params);
         game.didMakeMove = false; // Only one move per updateUI
         game.currentUpdateUI = params;
         clearAnimationTimeout();
